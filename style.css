@@ -1,0 +1,1182 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    background-color:#E5E5E5;
+    
+}
+
+.copy{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.indexHeaderMain{
+    width:100%;
+    height: 100%;
+    background-image: url(./images/img1.svg);
+    background-size: cover;
+
+}
+
+.headerIndex{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left:65px;
+    margin-right:64px;
+    position: relative;
+    z-index:2;
+}
+
+.logoIndex{
+ margin:0;
+ height: 15vh;
+}
+
+.navUl{
+    display: flex;
+    flex-direction: row;
+    padding-top: 4%;
+    
+}
+
+li, a{
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+.rectanguloSlide{
+    display: flex;
+    flex-direction:column;
+    margin-top: 15vh;
+    width: 40%;
+    margin-left: auto;
+    margin-right: 10vw;
+    margin-bottom: 20vh;
+    background-color:rgba(199, 199, 199, 0.644);
+    border-radius: 15px;
+    box-shadow: 0 0 60px 13px rgb(199, 199, 199);
+    padding:2.5vw;
+    z-index: 1;
+}
+
+.h1Index{
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 4.5vw;
+    line-height: 6vw;
+    text-align: center;
+    color: #2C2C2C;
+    margin-bottom:1vw;
+}
+
+.h2Index{
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.5vw;
+    line-height: 3.5vw;
+    text-align: center;
+    color: #2C2C2C;
+    padding:0.5vw;
+    margin-bottom:1vw;
+
+}
+
+.boton{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.5vw;
+
+}
+.botonIndex{
+    width: 13vw;
+    height: 7vh;
+    background: rgba(35, 80, 50, 0.7);
+    border: solid;
+    border-color: rgba(35, 80, 50, 0);
+    border-radius: 30px;
+    box-shadow: 8px 8px 8px rgba(41, 24, 24, 0.418);
+    backdrop-filter: blur(45px);
+    color:white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vw;
+    line-height: 1.5vw;
+    text-align: center;
+}
+
+.botonIndex:hover{
+    background: rgba(21, 53, 32, 0.856);
+    border: solid;
+    border-color: rgba(35, 80, 50, 0);
+    border-radius: 30px;
+    box-shadow: 8px 8px 8px rgba(216, 211, 211, 0);
+    backdrop-filter: blur(45px);
+    color:white;
+}
+
+.mainClass{
+    background-image: url(images/Ellipsemain.svg);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 8vw;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.tarjetas{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 6rem;
+    
+}
+.card{
+    margin-top:5vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(48, 45, 45, 0.746);
+    height: 18vw;
+    width: 18vw;
+}
+
+.imgCards{
+    width:8vw
+
+}
+
+.h2cards{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vw;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+color: #791113;
+}
+
+.montana{
+    display: flex;
+    background-image: url(images/montana1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+}
+
+.cardmont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    left: 0;
+    background: rgba(121, 17, 19, 0.3);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(45px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 0px 20px 20px 0px;   
+    width: 70vw;
+
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 4rem;
+
+    
+    margin-bottom: 6rem;
+    margin-top: 6rem;
+}
+
+.h2variantes{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 3rem;
+line-height: 53px;
+text-align: center;
+
+color: #FFFFFF;
+padding:2rem;
+}
+
+.pvariantes{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 200;
+font-size: 1.5rem;
+line-height: 1.7rem;
+text-align: center;
+padding-right:2vh;
+padding-left: 2vh;
+
+color: #FFFFFF;
+
+}
+
+.flecha1{
+    width:70vw;
+}
+
+.flecha2{
+
+    width: 70vw;
+    margin-left: 26vw;
+}
+
+.selva{
+    display: flex;
+    background-image: url(images/selva.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 100%;
+    justify-content: flex-end;
+
+}
+
+.imgIndex2{
+    padding-right: 4%;
+}
+
+.cardselva{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    right: 0;
+    background: rgba(35, 80, 50, 0.4);
+    box-shadow: -4px 4px 4px rgba(219, 192, 192, 0.25);
+    backdrop-filter: blur(45px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 20px 0px 0px 20px; 
+    
+
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    margin-left:37vw;
+}
+
+.playa{
+    display: flex;
+    background-image: url(images/playa.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+}
+
+.cardplaya{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    left: 0;
+    background: rgba(20, 56, 102, 0.3);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(45px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 0px 20px 20px 0px;
+    width: 70vw;
+
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 4rem;
+
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.footerGeneral{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+}
+
+.formaFooter{
+    margin-top:1rem;
+    margin-bottom:0;
+}
+
+
+.footerFlex{
+    background-color: #235032;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding:1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.redesSociales{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    width:15%;
+
+}
+
+.copyright{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 19px;
+    text-align: right;
+
+    color: #FFFFFF;
+    margin-right:2rem;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+/*catalogo*/
+
+.catalogoHeaderMain{
+    width:100%;
+    background-image: url(./images/catalogomain.svg);
+    background-size:cover;
+    
+}
+
+.blurCat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(121, 17, 19, 0.850);
+    border-radius: 50px;
+    box-shadow: 0 0 30px 15px rgb(121, 17, 19);
+    width: 50%;
+    height: 9rem;
+    margin-left:8%;
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+    
+}
+
+
+.h1Catalogo{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 4.2rem;
+    color: #FFFFFF;
+
+}
+
+
+.flecha1prod{
+    width:40vw;
+}
+
+.productosMont{
+    display: flex;
+    background-image: url(images/montanaP.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 70vh;
+    width: 100%;
+}
+
+.cardProdMont{
+    display: flex;
+    flex-direction: column;
+    right: 5%;
+    background: rgba(121, 17, 19, 0.2);
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(30px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 20px 20px 20px 20px; 
+    
+
+    padding-bottom: 1%;
+    padding-right: 4%;
+    padding-left: 4%;
+    margin-top:5%;
+    margin-bottom:5%;
+    margin-left:20vw;
+    height: 40vh;
+    min-height: 28rem;
+    max-height: 30rem;
+}
+
+.h2variantesProd{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 53px;
+    text-align: left;
+
+    color: #FFFFFF;
+    padding-left:8%;
+    margin-top: 1rem;
+}
+
+.slider{
+    width:70vw;
+    height: 20vw;
+    align-content: center;
+}
+
+.producto{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius:30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-right:5%;
+    margin-left:5%;
+    height: 25vh;
+    min-height:20rem;
+    max-height:22rem ;
+}
+
+.botonProd{
+    background: #791113;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(45px);
+    /* Note: backdrop-filter has minimal browser support */
+    border:none;
+
+border-radius: 20px;
+width: 10vw;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 1rem;
+line-height: 1rem;
+text-align: center;
+padding:2%;
+
+color: #FFFFFF;
+}
+
+.flecha2prod{
+
+    width: 40vw;
+    margin-left: 60vw;
+    margin-top:4%;
+    margin-bottom:4%;
+}
+
+.productosSelv{
+    display: flex;
+    background-image: url(images/selP.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 60vh;
+    width: 100%;
+}
+
+.cardProdSelv{
+    display: flex;
+    flex-direction: column;
+    right: 5%;
+    background: rgba(35, 80, 50, 0.3);
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(30px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 20px 20px 20px 20px; 
+    
+
+    padding-bottom: 1%;
+    padding-right: 4%;
+    padding-left: 4%;
+    margin-top:5%;
+    margin-bottom:5%;
+    margin-left:20vw;
+    height: 40vh;
+    min-height: 28rem;
+    max-height: 30rem;
+}
+
+.flecha3prod{
+    width:40vw;
+    margin-top:4%;
+}
+
+
+.productosPlay{
+    display: flex;
+    background-image: url(images/playP.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 60vh;
+    width: 100%;
+}
+
+.cardProdPlay{
+    display: flex;
+    flex-direction: column;
+    right: 5%;
+    background: rgba(28, 79, 146, 0.3);
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(30px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 20px 20px 20px 20px; 
+    
+
+    padding-bottom: 1%;
+    padding-right: 4%;
+    padding-left: 4%;
+    margin-top:5%;
+    margin-bottom:5%;
+    margin-left:20vw;
+    height: 40vh;
+    min-height: 28rem;
+    max-height: 30rem;
+}
+
+
+/*SOLIDARIO*/
+
+.solidarioBody{
+    width:100%;
+    min-height: 100%;
+    background-color: #FFFFFF;
+    background-image: url(./images/imgSolidario.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+        
+    
+}
+
+.solidarioHeaderMain{
+    width:100%;
+    background: linear-gradient(180deg, rgba(0,0,0,0.8813900560224089) 0%, rgba(0,0,0,0) 100%);
+    background-size: cover;
+    
+
+}
+
+.solidarioCentral{
+    background: rgba(28, 79, 146, 0.6);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(30px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 30px;
+width: 50%;
+margin-left: 20%;
+margin-right: 20%;
+padding: 5% 5% 10% 5%;
+margin-top:10%;
+margin-bottom: 10%;
+}
+
+
+.h1plan{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 2vw;
+line-height: 2vw;
+padding-bottom: 5%;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.pPlan{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 1.3vw;
+line-height: 1.6vw;
+text-align: justify;
+margin-top: 1vw;
+margin-bottom: 2%;
+
+color: #FFFFFF;
+}
+
+.nosotrosBody{
+    width:100%;
+    background-color: #FFFFFF;
+    background-image: url(./images/fondoNosotros-01.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+        
+    
+}
+
+.footerGeneral2{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+}
+
+.nosotrosCentral{
+    background: rgba(121, 17, 19, 0.3);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(30px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 30px;
+width: 50%;
+margin-left: 20%;
+margin-right: 20%;
+padding: 5% 5% 10% 5%;
+margin-top:10%;
+margin-bottom: 10%;
+}
+
+
+.liNav{
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .4s;
+    width: max-content;
+}
+
+.liNav:hover{
+    background-size: 100% 2px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background: linear-gradient(180deg, rgba(0,0,0,0.8813900560224089) 0%, rgba(0,0,0,0) 100%);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topLinks {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    margin-inline: 5%;
+
+  }
+  
+  /* Change the color of links on hover */
+  .topLinks:hover {
+    background-color: rgba(221, 221, 221, 0);
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topLinks.active {
+    background-color: #04aa6d00;
+    color: white;
+    margin-left: 3%;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+  .navResp{
+      display: flex;
+      justify-content:flex-end;
+      margin-right:3%;
+  }
+  
+  .overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(170, 170, 170); /* Black fallback color */
+    background-color: rgba(255, 255, 255, 0.9); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  }
+  
+  /* Position the content inside the overlay */
+  .overlay-content {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  }
+  
+  /* The navigation links inside the overlay */
+  .overlayLinks {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #0b4236;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+    font-family: Roboto;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .overlayLinks:hover, .overlayLinks:focus {
+    color: #8a0808;
+  }
+  
+  /* Position the close button (top right corner) */
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    color:#0b4236;
+  }
+
+  .iconResponsive{
+    display: none;
+}
+
+
+@media screen and (max-height: 450px) {
+    .overlayLinks {font-size: 20px}
+    .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+
+  }
+
+  @media screen and (max-width: 1400px) {
+    #wrapper{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .montana{
+        background-image: url(images/montMobile.png);
+     }
+     .selva{
+        background-image: url(images/selvaMobile.png);
+     }
+
+     .playa{
+        background-image: url(images/playaMobile.png);
+     }
+
+
+.cardmont {
+    width:60%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+
+}
+.cardselva {
+    width:60%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    margin-left: 38%;
+
+}
+.cardplaya {
+    width:60%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+
+}
+
+
+.imgIndex{
+    width: 60%;
+    margin:auto;
+}
+.h2variantes{
+    font-size:2.5rem;
+}
+.imgIndex2{
+    width:50%;
+    margin:auto;
+    padding-top: 2rem;
+}
+
+.h1plan{
+font-size: 2rem;
+line-height: 2rem;
+text-align: center;
+}
+
+.pPlan{
+font-size: 1.2rem;
+line-height: 1.5rem;
+}
+
+.productosMont {
+    background-size: 60vh;
+
+}
+
+.h1Catalogo{
+    font-size: 2.5rem;
+}
+
+}
+
+
+    @media screen and (max-width: 900px) {
+
+        .blurCat {
+            margin-left:auto;
+            margin-right:auto;
+            width: 55%;
+        }
+        .h1Catalogo {
+            text-align: center;
+            margin-left:0;
+            font-size: 2.2rem;
+    
+        }
+        .navResp a {display: none;}
+        .topnav a.icon {
+          float: right;
+          display: block;
+          font-size: 2rem;
+          margin-top: 4%;
+        }
+    
+        .iconResponsive{
+            display: block;
+            color: white;
+            font-size: 1.7rem;
+            position: absolute;
+            margin-top: 4%;
+            margin-left: 90%;
+        }
+      }
+
+@media screen and (max-width: 800px) {
+
+    .montana{
+        background-image: url(images/montMobile2.png);
+     }
+
+     .selva{
+        background-image: url(images/selvaMobile2.png);
+     }
+     .playa{
+        background-image: url(images/playaMobile2.png);
+     }
+    .mainClass{
+        padding-bottom: 1vw;
+    }
+    .copyright{
+    margin-right: 0;
+    text-align: end;
+    }
+
+
+
+.cardmont {
+    width:70%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+
+}
+.cardselva {
+    width:70%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    margin-left:28%;
+
+}
+
+.cardplaya {
+    width:70%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+
+}
+
+.imgIndex{
+    width: 60%;
+    margin:auto;
+    padding-top: 1rem;
+}
+.imgIndex2{
+    width: 60%;
+    margin:auto;
+    padding-top: 0;
+}
+.h2variantes{
+    font-size:1.7rem;
+    padding:0;
+}
+.pvariantes{
+    font-size: 1rem;
+}
+.card{
+    height: 22vw;
+    width: 22vw;
+}
+
+.h2cards{
+    font-size: 3vw;
+}
+
+
+
+.rectanguloSlide{
+    width: 80%;
+    margin: auto;
+    margin-top: 13vh;
+    margin-bottom: 20vh;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+
+
+}
+
+.h1Index{
+    font-weight: 300;
+    font-size:8vw;
+    line-height: 10vw;
+    margin-bottom:4vh;
+}
+
+.h2Index{
+
+    font-size: 5vw;
+    margin-bottom:3vh;
+
+}
+
+.botonIndex{
+    width: 40%;
+    height: 6vh;
+    font-size: 2vh;
+}
+
+.nosotrosCentral, .solidarioCentral{
+
+    border-radius: 30px;
+    width: 70%;
+    margin: auto;
+    margin-top: 30%;
+    }
+
+.pPlan{
+    width:80%;
+    margin: auto;
+    margin-top: 2vh;
+}
+
+.redesSociales {
+    justify-content: space-between;
+    
+}
+
+.cardProdPlay,.cardProdSelv,.cardProdMont{
+
+    margin-left: auto;
+    margin-right: auto;
+    height: 40vh;
+    min-height: 28rem;
+    max-height: 30rem;
+    width:80%;
+    align-items: center;
+}
+.h2variantesProd{
+    font-size: 5vw;
+    min-height: 1.4rem;
+    text-align: center;
+}
+
+.slider{
+    width:65%;
+    min-width:12rem;
+}
+
+.blurCat{
+    width:60%;
+    margin-left: auto;
+    margin-right:auto;
+
+}
+
+    .productosMont {
+        background-image: url(images/montanaP2.png);
+        background-size: 35vh;
+    }
+
+    .productosSelv{
+        background-image: url(images/selP2.png);
+        background-size: 35vh;
+    }
+    .productosPlay{
+        background-image: url(images/playP2.png);
+        background-size: 35vh;
+    }
+
+    .indexHeaderMain {
+        background-image: url(./images/img123.png);
+    }
+}
+
+
+@media screen and (max-width: 680px) {
+
+    .h1Catalogo {
+        font-size: 2rem;
+    }
+
+    .blurCat {
+        width: 75%;
+    }
+    
+}
+
+
+@media screen and (max-width: 450px) {
+    .producto {
+        height: 25vh;
+        min-height: 15rem;
+        max-height: 18rem;
+    }
+
+    .cardProdPlay,.cardProdSelv,.cardProdMont {
+        margin-left: auto;
+        margin-right: auto;
+        height: 30vh;
+        min-height: 22rem;
+        max-height: 22rem;
+        width:90%;
+        align-items: center;
+    }
+
+    .botonProd {
+        width: 50%;
+        height: 15%;
+
+    }
+    .h2variantesProd {
+        font-size: 1.4rem;
+        text-align: center;
+        padding-left: 0;
+    }
+    .productosMont {
+        background-image: url(images/montanaP2.png);
+        background-size: 27vh;
+    }
+    .productosSelv{
+        background-image: url(images/selP2.png);
+        background-size: 27vh;
+    }
+    .productosPlay{
+        background-image: url(images/playP2.png);
+        background-size: 27vh;
+    }
+
+    .blurCat{
+        width:85%;
+        margin-top: 10rem;
+        margin-bottom: 10rem;
+        height: 6rem;
+
+    
+    }
+
+    .h1Catalogo {
+        font-size: 1.7rem;
+    }
+
+    .h1Index {
+        font-weight: 400;
+    }
+    .h2Index {
+        font-weight: 400;
+    }
+
+    .rectanguloSlide{
+        width: 70%;
+        margin: auto;
+        margin-top: 7vh;
+        margin-bottom: 10vh;
+        padding-top: 4vh;
+        padding-bottom: 4vh;
+    
+    }
+
+    .indexHeaderMain {
+        width: 100%;
+        height: 100%;
+        background-image: url(./images/img12.png);
+        background-size: cover;
+    }
+    
+    
+
+} 
+

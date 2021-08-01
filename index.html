@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Nama - Naturaleza Original</title>
+</head>
+<body>
+<header class="indexHeaderMain">
+    <div class="topnav" id="myTopnav">
+        
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+            <a class="topLinks" href="index.html" class="active"><img class="logoIndex" src="images\LOGO.svg" alt="Tag logotipo Nama"></a>
+          <div class="navResp">
+            <a class="topLinks" href="catalogo.html"><li class="liNav">Catálogo</li></a>
+            <a class="topLinks" href="plan.html"><li class="liNav">Plan Solidario</li></a>
+            <a class="topLinks" href="nosotros.html"><li class="liNav">Nosotros</li></a>
+          </div>
+        </div>
+
+          <!-- The overlay -->
+          <div id="myNav" class="overlay">
+            <!-- Button to close the overlay navigation -->
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        
+            <!-- Overlay content -->
+                <div class="overlay-content">
+                    <a class="overlayLinks" href="index.html">Inicio</a>
+                    <a class="overlayLinks" href="catalogo.html">Catálogo</a>
+                    <a class="overlayLinks" href="plan.html">Plan Solidario</a>
+                    <a class="overlayLinks" href="nosotros.html">Nosotros</a>
+                </div>
+          </div> 
+    
+    
+            <span class="iconResponsive" onclick="openNav()"><i class="fa fa-bars"></i></span>
+           
+           <script>
+                /* Open */
+    /* Open when someone clicks on the span element */
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+    
+    /* Close when someone clicks on the "x" symbol inside the overlay */
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+            </script>
+    </div>
+    
+
+
+    <div class="rectanguloSlide">
+        <h1 class="h1Index">Esto es un titulo</h1>
+        <h2 class="h2Index">Esto es un texto de ejemplo</h2>
+        <div class="boton"><button class="botonIndex">Botón</button></div>
+    </div>
+</header>
+
+<main class="mainClass">
+    <div data-aos="flip-up" data-aos-delay="1000">
+<section class="tarjetas">
+    <div class="card">
+        <img class="imgCards" src="images/aventura.svg" alt="aventura">
+        <h2 class="h2cards">Para cualquier aventura</h2>
+    </div>
+
+    <div class="card">
+        <img class="imgCards" src="images/solidaridad.svg" alt="solidaridad">
+        <h2 class="h2cards">Espíritu solidario</h2>
+    </div>
+
+    <div class="card">
+        <img class="imgCards" src="images/calidad.svg" alt="calidad">
+        <h2 class="h2cards">Calidad de producto</h2>
+    </div>
+</section>
+</div>
+</main>
+
+
+<section class="montana">
+    <div data-aos="fade-right" data-aos-delay="1000">
+        <div class="cardmont" id="wrapper">
+            <img class="imgIndex" src="images/gorramont.svg" alt="gorra montaña">
+            <div class="texto">
+                <h2 class="h2variantes">Montaña</h2>
+                <p class="pvariantes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, dicta asperiores vero.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<img class="flecha1" src="images/flecha1.svg" alt="flecha 1">
+
+
+<section class="selva">
+    <div data-aos="fade-left" data-aos-delay="1000">
+        <div class="cardselva" id="wrapper">
+            <div class="texto">
+                <h2 class="h2variantes">Selva</h2>
+                <p class="pvariantes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, dicta asperiores vero. </p>
+            </div>
+            <img class="imgIndex2" src="images/gorraselva.svg" alt="gorra selva">
+        </div>
+    </div>
+</section>
+
+
+<img class="flecha2" src="images/flecha2.svg" alt="flecha 1">
+
+
+<section class="playa">
+    <div data-aos="fade-right" data-aos-delay="1000">
+    <div class="cardplaya" id="wrapper">
+        <img class="imgIndex" src="images/gorraplaya.svg" alt="gorra playa">
+        <div class="texto">
+            <h2 class="h2variantes">Playa</h2>
+            <p class="pvariantes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, dicta asperiores vero.</p>
+        </div>
+    </div>
+    </div>
+</section> 
+
+
+<footer class="footerGeneral">
+
+    <img class="formaFooter" src="images/imgfooter.svg" alt="">
+    <div class="footerFlex">
+        <div class="redesSociales">
+            <a href="index.html"><img class="IconoRedSocial" src="images\facebook.svg" alt="Facebook"></a>
+            <a href="index.html"><img class="IconoRedSocial" src="images\instagram.svg" alt="Instagram"></a>
+            <a href="index.html"><img class="IconoRedSocial" src="images\whatsapp.svg" alt="Whatsapp"></a>
+        </div>
+        <div class="copy">
+            <p class="copyright"><span class="bold">COPYRIGHT </span> 2021</p>
+            <p class="copyright"> Todos los derechos reservados</p>
+        </div>
+    </div>        
+</footer>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

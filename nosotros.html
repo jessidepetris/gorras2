@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <script src="style.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Nama - Naturaleza Original</title>
+</head>
+<body class="nosotrosBody">
+    <div class="container">
+<header class="solidarioHeaderMain">
+        <div class="topnav" id="myTopnav">
+        
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <a class="topLinks" href="index.html" class="active"><img class="logoIndex" src="images\LOGO.svg" alt="Tag logotipo Nama"></a>
+              <div class="navResp">
+                <a class="topLinks" href="catalogo.html"><li class="liNav">Catálogo</li></a>
+                <a class="topLinks" href="plan.html"><li class="liNav">Plan Solidario</li></a>
+                <a class="topLinks" href="nosotros.html"><li class="liNav">Nosotros</li></a>
+              </div>
+            </div>
+    
+              <!-- The overlay -->
+              <div id="myNav" class="overlay">
+                <!-- Button to close the overlay navigation -->
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            
+                <!-- Overlay content -->
+                    <div class="overlay-content">
+                        <a class="overlayLinks" href="index.html">Inicio</a>
+                        <a class="overlayLinks" href="catalogo.html">Catálogo</a>
+                        <a class="overlayLinks" href="plan.html">Plan Solidario</a>
+                        <a class="overlayLinks" href="nosotros.html">Nosotros</a>
+                    </div>
+              </div> 
+        
+        
+                <span class="iconResponsive" onclick="openNav()"><i class="fa fa-bars"></i></span>
+               
+               <script>
+                    /* Open */
+        /* Open when someone clicks on the span element */
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+        
+        /* Close when someone clicks on the "x" symbol inside the overlay */
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+                </script>
+        </div>  
+</header>
+
+<article class="nosotrosCentral">
+    <h1 class="h1plan">Nosotros</h1>
+    <p class="pPlan">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, nemo cumque incidunt veritatis, dicta omnis minima esse praesentium, reprehenderit similique numquam? Rem mollitia beatae, quam quos debitis doloremque illum nulla.</p>
+</article>
+
+
+<footer class="footerGeneral2">
+
+  <img class="formaFooter" src="images/imgfooter.svg" alt="">
+  <div class="footerFlex">
+      <div class="redesSociales">
+          <a href="index.html"><img class="IconoRedSocial" src="images\facebook.svg" alt="Facebook"></a>
+          <a href="index.html"><img class="IconoRedSocial" src="images\instagram.svg" alt="Instagram"></a>
+          <a href="index.html"><img class="IconoRedSocial" src="images\whatsapp.svg" alt="Whatsapp"></a>
+      </div>
+      <div class="copy">
+          <p class="copyright"><span class="bold">COPYRIGHT </span> 2021</p>
+          <p class="copyright"> Todos los derechos reservados</p>
+      </div>
+  </div>         
+</footer>
+</div>
+</body>
+</html>
