@@ -520,7 +520,7 @@ color: #FFFFFF;
     background-image: url(images/selP.png);
     background-repeat: no-repeat;
     background-position: left;
-    background-size: 60vh;
+    background-size: 70vh;
     width: 100%;
 }
 
@@ -558,7 +558,7 @@ color: #FFFFFF;
     background-image: url(images/playP.png);
     background-repeat: no-repeat;
     background-position: left;
-    background-size: 60vh;
+    background-size: 70vh;
     width: 100%;
 }
 
@@ -872,7 +872,7 @@ line-height: 1.5rem;
 }
 
 .productosMont {
-    background-size: 60vh;
+    background-size: 70vh;
 
 }
 
@@ -1128,15 +1128,15 @@ line-height: 1.5rem;
     }
     .productosMont {
         background-image: url(images/montanaP2.png);
-        background-size: 27vh;
+        background-size: 29vh;
     }
     .productosSelv{
         background-image: url(images/selP2.png);
-        background-size: 27vh;
+        background-size: 29vh;
     }
     .productosPlay{
         background-image: url(images/playP2.png);
-        background-size: 27vh;
+        background-size: 29vh;
     }
 
     .blurCat{
@@ -1174,6 +1174,21 @@ line-height: 1.5rem;
         height: 100%;
         background-image: url(./images/img12.png);
         background-size: cover;
+    }
+
+    .solidarioBody {
+        background-image: url(./images/SolidarioSmall.png);
+        background-size:100%;
+
+    }
+
+    .catalogoHeaderMain {
+        background-image: url(./images/CatalogoSmall.png);
+    }
+
+    .nosotrosBody {
+        background-image: url(./images/NosotrosSmall.png);
+        background-size: 100%;
     }
     
     
