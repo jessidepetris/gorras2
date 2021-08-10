@@ -73,9 +73,9 @@ li, a{
     display: flex;
     flex-direction:column;
     margin-top: 15vh;
-    width: 40%;
+    width: 30%;
     margin-left: auto;
-    margin-right: 10vw;
+    margin-right: 15vw;
     margin-bottom: 20vh;
     background-color:rgba(199, 199, 199, 0.644);
     border-radius: 15px;
@@ -90,7 +90,7 @@ li, a{
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
-    font-size: 4.5vw;
+    font-size: 4vw;
     line-height: 6vw;
     text-align: center;
     color: #2C2C2C;
@@ -103,7 +103,7 @@ li, a{
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
-    font-size: 2.5vw;
+    font-size: 2vw;
     line-height: 3.5vw;
     text-align: center;
     color: #2C2C2C;
@@ -121,7 +121,7 @@ li, a{
 
 }
 .botonIndex{
-    width: 13vw;
+    width: 10vw;
     height: 7vh;
     background: rgba(35, 80, 50, 0.7);
     border: solid;
@@ -133,7 +133,7 @@ li, a{
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 2vw;
+    font-size: 1.6vw;
     line-height: 1.5vw;
     text-align: center;
 }
@@ -177,12 +177,12 @@ li, a{
     justify-content: center;
     border-radius: 30px;
     box-shadow: 0 0 10px rgba(48, 45, 45, 0.746);
-    height: 18vw;
-    width: 18vw;
+    height: 14vw;
+    width: 14vw;
 }
 
 .imgCards{
-    width:8vw
+    width:5vw
 
 }
 
@@ -190,7 +190,7 @@ li, a{
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 2vw;
+    font-size: 1.5vw;
     text-align: center;
     margin-top: 3%;
     margin-left: 10%;
@@ -226,8 +226,8 @@ color: #791113;
     padding-left: 4rem;
 
     
-    margin-bottom: 6rem;
-    margin-top: 6rem;
+    margin-bottom: 8rem;
+    margin-top:5rem;
 }
 
 .h2variantes{
@@ -263,7 +263,7 @@ color: #FFFFFF;
 .flecha2{
 
     width: 70vw;
-    margin-left: 29vw;
+    margin-left: 29.1vw;
 }
 
 .selva{
@@ -687,7 +687,7 @@ margin-bottom: 10%;
 .liNav{
     color:white;
     font-family: 'Roboto', sans-serif;
-    padding-top: 1.5rem;
+    padding-top:3rem;
     font-style: normal;
     font-weight: 500;
     font-size: 1.6rem;
@@ -806,28 +806,43 @@ margin-bottom: 10%;
   }
 
   @media screen and (max-width: 1400px) {
+
+    .botonIndex {
+        width: 10vw;
+        height: 7vh;
+    }
+
     #wrapper{
         flex-direction: column;
         flex-wrap: wrap;
     }
+    #wrapper2{
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+    .imgIndex{
+        padding-right: 0;
+
+    }
 
     .montana{
-        background-image: url(images/montMobile.png);
+        background-image: url(images/montMobile1.png);
      }
      .selva{
-        background-image: url(images/selvaMobile.png);
+        background-image: url(images/selvaMobile1.png);
      }
 
      .playa{
-        background-image: url(images/playaMobile.png);
+        background-image: url(images/playaMobile1.png);
      }
-
 
 .cardmont {
     width:60%;
     padding-top: 2%;
     padding-bottom: 2%;
     padding-left: 2%;
+    margin-bottom: 7rem;
+    margin-top: 8rem;
 
 }
 .cardselva {
@@ -882,8 +897,37 @@ line-height: 1.5rem;
 
 }
 
+@media screen and (max-width: 1100px) {
+    .montana{
+        background-image: url(images/montMobile.png);
+     }
+     .selva{
+        background-image: url(images/selvaMobile.png);
+     }
 
-    @media screen and (max-width: 900px) {
+     .playa{
+        background-image: url(images/playaMobile.png);
+     }
+
+}
+
+@media screen and (max-width: 1000px) {
+.card {
+    height: 18vw;
+    width: 18vw;
+    }
+.tarjetas {
+    margin-top: 3rem;
+    }
+.h2cards {
+    font-size: 1.8vw;
+}
+.imgCards {
+    width: 6vw;
+}
+}
+
+@media screen and (max-width: 900px) {
 
         .blurCat {
             margin-left:auto;
@@ -912,8 +956,25 @@ line-height: 1.5rem;
             margin-top: 4%;
             margin-left: 90%;
         }
-      }
 
+        .rectanguloSlide {
+            width: 40%;
+        }
+
+        .h1Index {
+            font-size: 4.5vw;
+            line-height: 6vw;
+        }
+
+        .h2Index {
+            font-size: 2.7vw;
+        }
+
+        .botonIndex {
+            width: 15vw;
+            height: 7vh;
+      }
+    }
 @media screen and (max-width: 800px) {
 
     .montana{
@@ -933,8 +994,6 @@ line-height: 1.5rem;
     margin-right: 0;
     text-align: end;
     }
-
-
 
 .cardmont {
     width:70%;
@@ -1083,6 +1142,11 @@ line-height: 1.5rem;
     .indexHeaderMain {
         background-image: url(./images/img123.png);
     }
+
+#wrapper, #wrapper2{
+   margin-top:60px;
+   margin-bottom:60px; 
+}
 }
 
 
@@ -1094,8 +1158,24 @@ line-height: 1.5rem;
 
     .blurCat {
         width: 75%;
+    } 
+
+    .card {
+        height: 26vw;
+        width: 26vw;
+        border-radius: 20px;
     }
-    
+    .tarjetas {
+
+        margin-top: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .logoIndex{
+    height: 18vw;
+}
 }
 
 
