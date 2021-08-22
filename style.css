@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 html, body{
     width: 100%;
     height: 100%;
@@ -445,8 +446,8 @@ color: #FFFFFF;
     padding-bottom: 1%;
     padding-right: 4%;
     padding-left: 4%;
-    margin-top:5%;
-    margin-bottom:5%;
+    margin-top:10%;
+    margin-bottom:10%;
     margin-left:20vw;
     height: 40vh;
     min-height: 28rem;
@@ -539,8 +540,8 @@ color: #FFFFFF;
     padding-bottom: 1%;
     padding-right: 4%;
     padding-left: 4%;
-    margin-top:5%;
-    margin-bottom:5%;
+    margin-top:10%;
+    margin-bottom:10%;
     margin-left:20vw;
     height: 40vh;
     min-height: 28rem;
@@ -577,8 +578,8 @@ color: #FFFFFF;
     padding-bottom: 1%;
     padding-right: 4%;
     padding-left: 4%;
-    margin-top:5%;
-    margin-bottom:5%;
+    margin-top:10%;
+    margin-bottom:10%;
     margin-left:20vw;
     height: 40vh;
     min-height: 28rem;
@@ -807,19 +808,15 @@ margin-bottom: 10%;
 
   @media screen and (max-width: 1400px) {
 
+    .slick-next:before, .slick-prev:before{
+        line-height: 10vh;
+    }
+
     .botonIndex {
         width: 10vw;
         height: 7vh;
     }
 
-    #wrapper{
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-    #wrapper2{
-        flex-direction: column-reverse;
-        flex-wrap: wrap;
-    }
     .imgIndex{
         padding-right: 0;
 
@@ -836,43 +833,16 @@ margin-bottom: 10%;
         background-image: url(images/playaMobile1.png);
      }
 
-.cardmont {
-    width:60%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-left: 2%;
-    margin-bottom: 7rem;
-    margin-top: 8rem;
-
-}
-.cardselva {
-    width:60%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-left: 2%;
-    margin-left: 38%;
-
-}
-.cardplaya {
-    width:60%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-left: 2%;
-
-}
-
-
 .imgIndex{
-    width: 60%;
+    width: 55%;
     margin:auto;
 }
 .h2variantes{
     font-size:2.5rem;
 }
 .imgIndex2{
-    width:50%;
+    width:60%;
     margin:auto;
-    padding-top: 2rem;
 }
 
 .h1plan{
@@ -898,6 +868,10 @@ line-height: 1.5rem;
 }
 
 @media screen and (max-width: 1100px) {
+
+    .slick-next:before, .slick-prev:before{
+        line-height: 13vh;
+    }
     .montana{
         background-image: url(images/montMobile.png);
      }
@@ -908,6 +882,40 @@ line-height: 1.5rem;
      .playa{
         background-image: url(images/playaMobile.png);
      }
+
+     #wrapper{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #wrapper2{
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+
+    .cardmont {
+        width:60%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 2%;
+        margin-bottom: 7rem;
+        margin-top: 8rem;
+    
+    }
+    .cardselva {
+        width:60%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 2%;
+        margin-left: 38%;
+    
+    }
+    .cardplaya {
+        width:60%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 2%;
+    
+    }    
 
 }
 
@@ -977,6 +985,10 @@ line-height: 1.5rem;
     }
 @media screen and (max-width: 800px) {
 
+    .slick-next:before, .slick-prev:before{
+        line-height: 20vh;
+    }
+
     .montana{
         background-image: url(images/montMobile2.png);
      }
@@ -1027,7 +1039,7 @@ line-height: 1.5rem;
 .imgIndex2{
     width: 60%;
     margin:auto;
-    padding-top: 0;
+    padding-top: 1rem;
 }
 .h2variantes{
     font-size:1.7rem;
@@ -1180,6 +1192,18 @@ line-height: 1.5rem;
 
 
 @media screen and (max-width: 450px) {
+
+    .imgCards {
+        width: 9vw;
+    }
+
+    .gorra{
+        width: 60%;
+    }
+
+    .titulogorra{
+        font-size: 1rem;
+    }
     .producto {
         height: 25vh;
         min-height: 15rem;
@@ -1197,8 +1221,8 @@ line-height: 1.5rem;
     }
 
     .botonProd {
-        width: 50%;
-        height: 15%;
+        width: 40%;
+        height: 10%;
 
     }
     .h2variantesProd {
@@ -1274,4 +1298,5 @@ line-height: 1.5rem;
     
 
 } 
+
 
